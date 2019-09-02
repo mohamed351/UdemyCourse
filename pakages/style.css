@@ -1,0 +1,31 @@
+.package{
+    background-color: #ccc;
+    padding:16px;
+    margin: 10px 0;
+    width: 60%;
+    border-top:4px solid #353b48;
+    border-bottom:4px solid #353b48;
+}
+.package a{
+ text-decoration: none;
+ color:#000;
+ font-family: sans-serif;
+}
+.package__info{
+    border:1px solid #000;
+    background-color: #fff;
+    padding:16px;
+}
+.clearfix{
+    clear: both;
+}
+#free{
+    float: right;
+    text-align: right;
+    border-left:4px solid #353b48;
+   
+
+}
+#premium, #plus{
+    border-right: 4px solid #353b48;
+}
