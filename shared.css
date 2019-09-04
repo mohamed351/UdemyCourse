@@ -12,12 +12,15 @@ header{
     width: 100%;
     top:0;
     left: 0;
+    z-index: 10;
    
 }
+
 html
 {
-    margin-top: 57px;
+    margin-top: 47px;
 }
+
 header > div {
     font-family: 'Anton', sans-serif;
     font-size:25px;
@@ -96,4 +99,14 @@ header > div a{
 .main-footer  a{
     color:#fff;
     text-decoration: none;
+}
+.brand-image{
+   width: 50px;
+  
+}
+
+.brand-image img{
+    width: 100%;
+    display: inline-block;
+    
 }
