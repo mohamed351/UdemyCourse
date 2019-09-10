@@ -19,8 +19,9 @@
 }
 .testimonial__name{
     font-family: 'Kaushan Script', cursive;
-    font-size: 40px;
+    font-size: 2.9rem;
     color:#e74c3c;
+    font-weight: bolder;
 }
 .clear-fix{
     clear: both;
@@ -41,4 +42,7 @@
     font-family: 'Cantarell', sans-serif;
 
     
+}
+.testimonial-container{
+    padding:16px;
 }
