@@ -122,7 +122,7 @@ header > div a{
     
 
 }
-
+/*modal style*/
 .modal {
     position: fixed;
     display: none;
@@ -170,4 +170,45 @@ header > div a{
   .modal__action--negative:active {
     background: #ff5454;
     border-color: #ff5454;
+  }
+
+  .mobile-nav {
+    display: none;
+    position: fixed;
+    z-index: 101;
+    top: 0;
+    left: 0;
+    background: white;
+    width: 40%;
+    height: 100vh;
+    font-family: 'Noto Sans JP', sans-serif;
+  }
+  /*mobile style*/
+  .mobile-nav__items {
+    width: 90%;
+    height: 100%;
+    list-style: none;
+    margin: 10% auto;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .mobile-nav__item {
+    margin: 1rem 0;
+  }
+  
+  .mobile-nav__item a {
+    font-size: 1.5rem;
+  }
+  .mobile-nav a{
+  text-decoration: none;
+    color: #333;
+  }
+  .mobile-nav ul li:last-child a{
+      background-color: #bb0000;
+      padding:6px;
+      color:#fff;
+      border: 1px solid #ff5454;
+      border-radius: 5px;
+
   }
