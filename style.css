@@ -19,15 +19,17 @@
     font-size: 25px;
     color:#333;
 }
-.plane-offers div{
+.plane-offers {
     width: 80%;
     margin: auto;
-
+    position: relative;
+    transform: translate(2.5%);
 }
+
 .plane{
     background-color: #aaa;
     padding:16px;
-    width: 33%;
+    width: 30%;
     display: inline-block;
     text-align:center;
     font-family: "Noto Sans JP";
