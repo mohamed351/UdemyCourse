@@ -1,0 +1,121 @@
+
+
+.banner-content{
+    text-align:center;
+    padding-top: 20px;
+    height:500px;
+    font-family: "Noto Sans JP";
+    color:#fff;
+    background-image: url("img/servers.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.font-content{
+    font-family: "Noto Sans JP",sans-serif;
+    text-align: center;
+}
+.header-content-plan{
+    font-size: 25px;
+    color:#333;
+}
+/*
+.plane-offers {
+    width: 80%;
+    margin: auto;
+    
+    position: relative;
+    transform: translate(2.5%);
+}
+*/
+.plane{
+    background-color: #aaa;
+    padding:16px;
+    width:100% ;
+    display: block;
+    text-align:center;
+    font-family: "Noto Sans JP";
+   margin: 20px 0px;
+    color:#fff;
+   
+    
+
+
+}
+.plane-list {
+    list-style: none;
+    
+    
+    
+   
+}
+.plane-list li{
+    margin: 8px 0;
+}
+.plane-selected{
+    border-radius: 5px;
+    background-color: #333;
+    box-shadow: 2px 2px rgb(0,0,0,0.5);
+    min-width: 169px;
+    
+}
+.btn-plan{
+    background-color:#555;
+    padding:10px;
+    color:#fff;
+    border: none;
+}
+.btn-plan:hover{
+    background-color: #333;
+    cursor: pointer;
+}
+.section-feature{
+    background-color: #353b48;
+    padding: 10px;
+    font-family: 'Livvic', sans-serif;
+   
+}
+.section-feature h1 ,.section-feature ul  {
+    color:#fff;
+    text-align: center;
+
+}
+.section-feature ul {
+    list-style: none;
+    
+}
+.section-feature ul li{
+    display: block;
+    width: 100%;
+}
+.section-feature ul li div{
+    width: 150px;
+    height: 150px;
+    background-color: #bbb;
+    margin: auto;
+    border-radius: 50%;
+    padding:25px;
+ 
+
+}
+@media(min-width:60rem){
+   .plane{
+       width: 30%;
+       display: inline-block;
+       margin: 20px auto;
+       transform: translateX(3rem);
+       max-width: 400px;
+      
+   }
+   .plane-offers{
+       width: 80%;
+       margin: auto;
+   }
+   .section-feature ul li{
+    display: inline-block;
+    width: 30%;
+    }
+}
+
+
+

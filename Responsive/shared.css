@@ -4,6 +4,7 @@
 body{
     padding:0px;
     margin: 0px;
+    overflow-x: hidden;
 }
 header{
     background-color: #333;
@@ -18,7 +19,8 @@ header{
 
 html
 {
-    margin-top: 47px;
+    margin: 0px;
+    overflow-x: hidden;
 }
 
 header > div {
@@ -36,7 +38,7 @@ header > div a{
     
 }
 .main-nav{
-    display: inline-block;
+    display: none;
     width: calc( 90% - 45px);
     text-align: right;
     vertical-align: middle;
@@ -223,6 +225,7 @@ header > div a{
     padding-top: 0;
     padding-bottom: 0;
     vertical-align: middle;
+    display: inline-block;
   }
   
   .toggle-button:focus {
@@ -241,4 +244,11 @@ header > div a{
     display: block ;
 
   }
-  
+  @media(min-width:60rem){
+   .toggle-button{
+     display: none;
+   }
+   .main-nav{
+     display: inline-block;
+   }
+ }
